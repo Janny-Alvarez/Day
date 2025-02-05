@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #ffe6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+h1 {
+    color: #ff4d6d;
+    font-size: 24px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: transform 0.2s, background 0.3s;
+}
+
+#yes {
+    background-color: #ff4d6d;
+    color: white;
+    transition: transform 0.3s;
+}
+
+#no {
+    background-color: #ccc;
+    color: black;
+}
+
+#no:hover {
+    background-color: #bbb;
+}
+
+#yes:hover {
+    background-color: #ff3355;
+}
